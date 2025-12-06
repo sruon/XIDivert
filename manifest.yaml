@@ -1,0 +1,19 @@
+# Path to up-to-date retail FFXI installation
+ffxi_path: "C:\\Program Files (x86)\\PlayOnline\\SquareEnix\\FINAL FANTASY XI"
+
+# ROM folder for all custom DATs (10-255)
+rom_folder: 255
+
+# DAT swap definitions
+# Each swap folder must contain:
+#   - events.DAT   (event script data)
+#   - strings.DAT  (event text strings)
+swaps:
+  - name: "Port Jeuno (2009)"
+    path: "port_jeuno_2009"
+    description: "Port Jeuno events from Ultimate Collection (2009~). Sagheera 15k Cosmo-Cleanse, Conquest NPC"
+    entity_ids:
+      17784952: 17784962 # Sagheera
+  - name: "Ru'Lude Gardens (2009)"
+    path: "rulude_2009"
+    description: "Ru'Lude Gardens events from Ultimate Collection (2009~). Dynamis entry event."
