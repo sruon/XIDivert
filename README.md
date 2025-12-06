@@ -12,7 +12,7 @@ If `EventNum2` doesn't match `EventNum`, the client shifts its DAT lookup for ev
 This index is then used to read the ROM folder in `VTABLE.DAT`, and then the actual target files from `FTABLE.DAT`.
 
 By passing a custom "text_table" (a misnomer really) server-side, you can force the client to load data for an event from an alternate location.
-```
+```lua
 -- Before
 player:startEvent(310, menu, arg3, arg4, gil, cosmoTime, 1, hasCosmoCleanse, storedABCs)
 
